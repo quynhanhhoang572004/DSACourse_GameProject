@@ -23,10 +23,10 @@ public class Keyboardinputs implements KeyListener {
                 gamePanel.changeYDelta(-5);
             break;
            case KeyEvent.VK_A:
-               gamePanel.changeYDelta(+5);
+               gamePanel.changeXDelta(-5);
             break;
            case KeyEvent.VK_S:
-               gamePanel.changeXDelta(-5);
+               gamePanel.changeYDelta(+5);
             break;
            case KeyEvent.VK_D:
                gamePanel.changeXDelta(+5);
